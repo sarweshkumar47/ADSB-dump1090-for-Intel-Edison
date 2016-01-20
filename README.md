@@ -41,9 +41,9 @@
 ### Run Mode S decoder
 
 
-  To see the decoded aircrafts, run the below command in dump1090 directory.
+  Run adsb_run script, to see the decoded aircrafts.
   
-      ./dump1090 --interactive
+      ./adsb_run.sh
       
 ### Reference
 
