@@ -1,7 +1,7 @@
 # ADSB-dump1090-for-Intel-Edison
-##Mode S decoder for RTL devices
+###Mode S decoder for RTL devices
 
-### SDR (Software Defined Radio)
+## SDR (Software Defined Radio)
 
 
   Software-defined radio (SDR) is a technique for turning a computer into a radio. But not just
@@ -12,14 +12,14 @@
   fast enough to pick up and decode radio waves on the fly.
 
 
-### RTL-SDR
+## RTL-SDR
 
 
   RTL-SDR is a very cheap software defined radio that uses a DVB-T TV tuner dongle based on the 
   RTL2832U chipset. RTL-SDR turns your Realtek RTL2832 based DVB dongle into a SDR receiver.
  
       
-###Hardware
+##Hardware
      
       
   * [NooElec RTLSDR Receiver](https://www.nooelec.com/store/sdr/sdr-receivers/nesdr-mini-rtl2832-r820t.html)
@@ -30,22 +30,26 @@
   * [Powered USB Hub](http://www.ebay.in/itm/Transcend-TS-HUB3K-HUB3-4-Port-3-0-USB-HUB-/281844012605?hash=item419f36563d:g:LKoAAOSw7PBToA8D) (Optional)
  
       
-### Driver installation for RTL-SDR
+## Driver installation for RTL-SDR
   
       
   Run the below command in intel edison terminal/shell to install librtlsdr driver for rtlsdr and to
   configure audio system
-          
-      ./rtlsdr_dump1090_config.sh
+  
+```bash
+ ./rtlsdr_dump1090_config.sh
+```
       
-### Run Mode S decoder
+## Run Mode S decoder
 
 
   Run adsb_run script, to see the decoded aircrafts.
-  
-      ./adsb_run.sh
+
+```bash  
+ ./adsb_run.sh
+```
       
-### Reference
+## Reference
 
 * [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
 * [http://www.satsignal.eu/raspberry-pi/dump1090.html](http://www.satsignal.eu/raspberry-pi/dump1090.html)
